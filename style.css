@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+body{
+    background-image: url(fundoinicial.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    background-image: linear-gradient(to right, #9f09f5,#4274f5);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+.aba{
+    display: flex;
+    width: 100%;
+    padding: 20px 20px;
+    justify-content: space-around;
+    box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.623);
+}
+.lista{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding-right: 50px;
+}
+.pq{
+    font-size: 4em;
+    width: 850px;
+    height: 200px;
+    padding: 150px 0px 15px 180px;
+    background-image: linear-gradient(to right, #9f09f5,#4274f5);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+.pqr{
+    font-size: 1.1em;
+    width: 850px;
+    height: 200px;
+    padding: 0px 0px 15px 180px;
+}
+.botão{
+    margin-left: 180px;
+    font-size: 1.3em;
+    width: 70px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 3px;
+    background-image: linear-gradient(to right, #9f09f5,#4274f5);
+    color: white;
+}
+nav>ul>li>a{
+    color: #9f09f5;
+}
+nav>ul>li>a:hover{
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    padding: 3px;
+}
+
